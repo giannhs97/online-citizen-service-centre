@@ -1,0 +1,376 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import java.awt.Font;
+import javax.swing.SwingConstants;
+import javax.swing.JLabel;
+import java.awt.Color;
+import javax.swing.JButton;
+
+public class PistopoihtikoOikogeneiakhsKatastashs {
+
+	private JFrame frame;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	private JTextField textField_4;
+	private JTextField textField_5;
+	private JTextField textField_6;
+	private JTextField textField_7;
+	private JTextField textField_8;
+	private JTextField textField_9;
+	private JTextField textField_10;
+	private JTextField textField_11;
+	private JTextField textField_12;
+	private JTextField textField_13;
+	private JTextField textField_14;
+	private JTextField textField_15;
+	private JTextField textField_16;
+	private JTextField textField_17;
+	private JTextField textField_18;
+	private JTextField textField_19;
+	private JTextField textField_20;
+	private JTextField textField_21;
+	private JTextField textField_22;
+	private JTextField textField_23;
+	private JTextField textField_24;
+	private JTextField textField_25;
+	private JButton btnNewButton;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					PistopoihtikoOikogeneiakhsKatastashs window = new PistopoihtikoOikogeneiakhsKatastashs();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public PistopoihtikoOikogeneiakhsKatastashs() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.getContentPane().setBackground(new Color(135, 206, 235));
+		frame.setBackground(new Color(135, 206, 235));
+		frame.setBounds(100, 100, 864, 568);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		textField = new JTextField();
+		textField.setBackground(new Color(135, 206, 235));
+		textField.setHorizontalAlignment(SwingConstants.CENTER);
+		textField.setFont(new Font("Tahoma", Font.BOLD, 20));
+		textField.setEditable(false);
+		textField.setText("\u03A0\u0399\u03A3\u03A4\u039F\u03A0\u039F\u0399\u0397\u03A4\u0399\u039A\u039F \u039F\u0399\u039A\u039F\u0393\u0395\u039D\u0395\u0399\u0391\u039A\u0397\u03A3 \u039A\u0391\u03A4\u0391\u03A3\u03A4\u0391\u03A3\u0397\u03A3");
+		textField.setBounds(0, 0, 846, 22);
+		frame.getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblNewLabel = new JLabel("\u03A3\u03A4\u039F\u0399\u03A7\u0395\u0399\u0391 \u0391\u0399\u03A4\u039F\u03A5\u039D\u03A4\u039F\u03A3");
+		lblNewLabel.setFont(new Font("Trebuchet MS", Font.PLAIN, 17));
+		lblNewLabel.setBounds(10, 35, 208, 16);
+		frame.getContentPane().add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("\u039F /\u0397 \u038C\u03BD\u03BF\u00B5\u03B1:");
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNewLabel_1.setBounds(12, 59, 117, 16);
+		frame.getContentPane().add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("\u0395\u03C0\u03CE\u03BD\u03C5\u03BC\u03BF:");
+		lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNewLabel_2.setBounds(12, 81, 76, 16);
+		frame.getContentPane().add(lblNewLabel_2);
+		
+		JLabel label = new JLabel("\u038C\u03BD\u03BF\u00B5\u03B1 \u03A0\u03B1\u03C4\u03AD\u03C1\u03B1:");
+		label.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label.setBounds(12, 101, 109, 16);
+		frame.getContentPane().add(label);
+		
+		JLabel label_1 = new JLabel("\u038C\u03BD\u03BF\u03BC\u03B1 \u039C\u03B7\u03C4\u03AD\u03C1\u03B1\u03C2 :");
+		label_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_1.setBounds(10, 140, 125, 38);
+		frame.getContentPane().add(label_1);
+		
+		JLabel lblNewLabel_3 = new JLabel("\u0395\u03C0\u03CE\u03BD\u03C5\u00B5\u03BF \u03A0\u03B1\u03C4\u03AD\u03C1\u03B1:");
+		lblNewLabel_3.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNewLabel_3.setBounds(10, 122, 125, 22);
+		frame.getContentPane().add(lblNewLabel_3);
+		
+		JLabel label_2 = new JLabel("\u0395\u03C0\u03CE\u03BD\u03C5\u00B5\u03BF \u039C\u03B7\u03C4\u03AD\u03C1\u03B1\u03C2:");
+		label_2.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_2.setBounds(10, 168, 125, 22);
+		frame.getContentPane().add(label_2);
+		
+		JLabel label_3 = new JLabel("\u0391\u03C1\u03B9\u03B8. \u2206\u03B5\u03BB\u03C4. \u03A4\u03B1\u03C5\u03C4\u03CC\u03C4\u03B7\u03C4\u03B1\u03C2:");
+		label_3.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_3.setBounds(10, 191, 168, 22);
+		frame.getContentPane().add(label_3);
+		
+		textField_1 = new JTextField();
+		textField_1.setEditable(false);
+		textField_1.setBounds(113, 59, 203, 17);
+		frame.getContentPane().add(textField_1);
+		textField_1.setColumns(10);
+		
+		textField_2 = new JTextField();
+		textField_2.setEditable(false);
+		textField_2.setBounds(113, 81, 203, 17);
+		frame.getContentPane().add(textField_2);
+		textField_2.setColumns(10);
+		
+		textField_3 = new JTextField();
+		textField_3.setEditable(false);
+		textField_3.setBounds(133, 99, 183, 22);
+		frame.getContentPane().add(textField_3);
+		textField_3.setColumns(10);
+		
+		textField_4 = new JTextField();
+		textField_4.setEditable(false);
+		textField_4.setBounds(141, 123, 175, 22);
+		frame.getContentPane().add(textField_4);
+		textField_4.setColumns(10);
+		
+		textField_5 = new JTextField();
+		textField_5.setEditable(false);
+		textField_5.setBounds(141, 146, 174, 22);
+		frame.getContentPane().add(textField_5);
+		textField_5.setColumns(10);
+		
+		textField_6 = new JTextField();
+		textField_6.setEditable(false);
+		textField_6.setColumns(10);
+		textField_6.setBounds(141, 172, 174, 22);
+		frame.getContentPane().add(textField_6);
+		
+		textField_7 = new JTextField();
+		textField_7.setEditable(false);
+		textField_7.setColumns(10);
+		textField_7.setBounds(173, 202, 143, 22);
+		frame.getContentPane().add(textField_7);
+		
+		JLabel lblNewLabel_4 = new JLabel("\u0391.\u03A6.\u039C :");
+		lblNewLabel_4.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNewLabel_4.setBounds(10, 226, 133, 16);
+		frame.getContentPane().add(lblNewLabel_4);
+		
+		JLabel label_4 = new JLabel("\u039F\u03A1\u0399\u03A3\u039C\u039F\u03A3/\u03A3\u03A4\u039F\u0399\u03A7\u0395\u0399\u0391 \u0395\u039A\u03A0\u03A1\u039F\u03A3\u03A9\u03A0\u039F\u03A5");
+		label_4.setFont(new Font("Trebuchet MS", Font.ITALIC, 17));
+		label_4.setBounds(414, 35, 301, 16);
+		frame.getContentPane().add(label_4);
+		
+		textField_8 = new JTextField();
+		textField_8.setEditable(false);
+		textField_8.setBounds(82, 227, 234, 22);
+		frame.getContentPane().add(textField_8);
+		textField_8.setColumns(10);
+		
+		JLabel lblNewLabel_5 = new JLabel("\u0391\u03C1\u03B9\u03B8\u00B5\u03CC\u03C2 \u2206\u03B7\u00B5\u03BF\u03C4\u03BF\u03BB\u03BF\u03B3\u03AF\u03BF\u03C5 :");
+		lblNewLabel_5.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblNewLabel_5.setBounds(10, 248, 166, 22);
+		frame.getContentPane().add(lblNewLabel_5);
+		
+		textField_9 = new JTextField();
+		textField_9.setEditable(false);
+		textField_9.setColumns(10);
+		textField_9.setBounds(173, 252, 142, 24);
+		frame.getContentPane().add(textField_9);
+		
+		textField_10 = new JTextField();
+		textField_10.setEditable(false);
+		textField_10.setColumns(10);
+		textField_10.setBounds(173, 283, 143, 22);
+		frame.getContentPane().add(textField_10);
+		
+		textField_11 = new JTextField();
+		textField_11.setEditable(false);
+		textField_11.setColumns(10);
+		textField_11.setBounds(141, 312, 175, 22);
+		frame.getContentPane().add(textField_11);
+		
+		textField_12 = new JTextField();
+		textField_12.setEditable(false);
+		textField_12.setColumns(10);
+		textField_12.setBounds(141, 341, 175, 20);
+		frame.getContentPane().add(textField_12);
+		
+		JLabel label_5 = new JLabel("\u0397\u00B5\u03B5\u03C1\u03BF\u00B5\u03B7\u03BD\u03AF\u03B1 \u03B3\u03AD\u03BD\u03BD\u03B7\u03C3\u03B7\u03C2:");
+		label_5.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_5.setBounds(12, 283, 166, 22);
+		frame.getContentPane().add(label_5);
+		
+		JLabel label_6 = new JLabel("\u03A4\u03CC\u03C0\u03BF\u03C2 \u0393\u03AD\u03BD\u03BD\u03B7\u03C3\u03B7\u03C2:");
+		label_6.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_6.setBounds(12, 308, 166, 22);
+		frame.getContentPane().add(label_6);
+		
+		JLabel label_7 = new JLabel("\u03A4\u03CC\u03C0\u03BF\u03C2 \u039A\u03B1\u03C4\u03BF\u03B9\u03BA\u03AF\u03B1\u03C2:");
+		label_7.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_7.setBounds(12, 341, 166, 22);
+		frame.getContentPane().add(label_7);
+		
+		JLabel label_8 = new JLabel("\u039F\u03B4\u03CC\u03C2 :");
+		label_8.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_8.setBounds(12, 368, 166, 22);
+		frame.getContentPane().add(label_8);
+		
+		JLabel label_9 = new JLabel("\u0391\u03C1\u03B9\u03B8\u03BC\u03CC\u03C2 :");
+		label_9.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_9.setBounds(12, 394, 166, 22);
+		frame.getContentPane().add(label_9);
+		
+		textField_13 = new JTextField();
+		textField_13.setEditable(false);
+		textField_13.setColumns(10);
+		textField_13.setBounds(82, 368, 234, 22);
+		frame.getContentPane().add(textField_13);
+		
+		textField_14 = new JTextField();
+		textField_14.setEditable(false);
+		textField_14.setColumns(10);
+		textField_14.setBounds(92, 397, 224, 22);
+		frame.getContentPane().add(textField_14);
+		
+		JLabel label_10 = new JLabel("\u03A4.\u039A. :");
+		label_10.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_10.setBounds(10, 426, 94, 22);
+		frame.getContentPane().add(label_10);
+		
+		JLabel label_11 = new JLabel("\u03A4\u03B7\u03BB\u03AD\u03C6\u03C9\u03BD\u03BF :");
+		label_11.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_11.setBounds(10, 452, 94, 22);
+		frame.getContentPane().add(label_11);
+		
+		JLabel lblEmail = new JLabel("E-mail :");
+		lblEmail.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblEmail.setBounds(10, 474, 94, 22);
+		frame.getContentPane().add(lblEmail);
+		
+		textField_15 = new JTextField();
+		textField_15.setEditable(false);
+		textField_15.setColumns(10);
+		textField_15.setBounds(63, 429, 253, 22);
+		frame.getContentPane().add(textField_15);
+		
+		textField_16 = new JTextField();
+		textField_16.setEditable(false);
+		textField_16.setColumns(10);
+		textField_16.setBounds(113, 453, 203, 22);
+		frame.getContentPane().add(textField_16);
+		
+		textField_17 = new JTextField();
+		textField_17.setEditable(false);
+		textField_17.setColumns(10);
+		textField_17.setBounds(82, 475, 234, 22);
+		frame.getContentPane().add(textField_17);
+		
+		JLabel lblE = new JLabel("E\u03A0\u03A9\u039D\u03A5\u039C\u039F :");
+		lblE.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblE.setBounds(414, 81, 143, 16);
+		frame.getContentPane().add(lblE);
+		
+		JLabel lblOnoma = new JLabel("ONOMA :");
+		lblOnoma.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblOnoma.setBounds(414, 59, 76, 16);
+		frame.getContentPane().add(lblOnoma);
+		
+		JLabel label_14 = new JLabel("\u039F\u039D\u039F\u039C\u0391\u03A4\u0395\u03A0\u03A9\u039D\u03A5\u039C\u039F \u03A0\u0391\u03A4\u0395\u03A1\u0391 :");
+		label_14.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_14.setBounds(414, 101, 224, 16);
+		frame.getContentPane().add(label_14);
+		
+		textField_18 = new JTextField();
+		textField_18.setEditable(false);
+		textField_18.setColumns(10);
+		textField_18.setBounds(513, 58, 286, 17);
+		frame.getContentPane().add(textField_18);
+		
+		textField_19 = new JTextField();
+		textField_19.setEditable(false);
+		textField_19.setColumns(10);
+		textField_19.setBounds(512, 79, 287, 17);
+		frame.getContentPane().add(textField_19);
+		
+		textField_20 = new JTextField();
+		textField_20.setEditable(false);
+		textField_20.setColumns(10);
+		textField_20.setBounds(631, 99, 168, 18);
+		frame.getContentPane().add(textField_20);
+		
+		JLabel label_12 = new JLabel("\u039F\u0394\u039F\u03A3 :");
+		label_12.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		label_12.setBounds(414, 126, 76, 22);
+		frame.getContentPane().add(label_12);
+		
+		textField_21 = new JTextField();
+		textField_21.setEditable(false);
+		textField_21.setColumns(10);
+		textField_21.setBounds(513, 125, 286, 23);
+		frame.getContentPane().add(textField_21);
+		
+		JLabel label_13 = new JLabel("\u0391\u03A1\u0399\u0398\u039C\u039F\u03A3 :");
+		label_13.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		label_13.setBounds(414, 152, 94, 22);
+		frame.getContentPane().add(label_13);
+		
+		JLabel label_15 = new JLabel("\u03A4.\u039A. :");
+		label_15.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_15.setBounds(414, 172, 94, 22);
+		frame.getContentPane().add(label_15);
+		
+		JLabel label_16 = new JLabel(" \u03A4\u0397\u039B\u0395\u03A6\u03A9\u039D\u039F :");
+		label_16.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_16.setBounds(407, 191, 101, 22);
+		frame.getContentPane().add(label_16);
+		
+		textField_22 = new JTextField();
+		textField_22.setEditable(false);
+		textField_22.setColumns(10);
+		textField_22.setBounds(512, 156, 287, 16);
+		frame.getContentPane().add(textField_22);
+		
+		textField_23 = new JTextField();
+		textField_23.setEditable(false);
+		textField_23.setColumns(10);
+		textField_23.setBounds(512, 178, 287, 16);
+		frame.getContentPane().add(textField_23);
+		
+		textField_24 = new JTextField();
+		textField_24.setEditable(false);
+		textField_24.setColumns(10);
+		textField_24.setBounds(512, 196, 287, 22);
+		frame.getContentPane().add(textField_24);
+		
+		JLabel label_17 = new JLabel("E-mail :");
+		label_17.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		label_17.setBounds(414, 227, 94, 22);
+		frame.getContentPane().add(label_17);
+		
+		textField_25 = new JTextField();
+		textField_25.setEditable(false);
+		textField_25.setColumns(10);
+		textField_25.setBounds(512, 232, 287, 24);
+		frame.getContentPane().add(textField_25);
+		
+		btnNewButton = new JButton("\u0388\u03BE\u03BF\u03B4\u03BF\u03C2");
+		btnNewButton.setBounds(749, 495, 89, 23);
+		frame.getContentPane().add(btnNewButton);
+	}
+
+}
