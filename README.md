@@ -1,7 +1,7 @@
 # online-citizen-service-centre
 
-English Version
+English Version:
 online citizen service application in java 
 
-Greek Version
+Greek Version:
 online ΚΕΠ με java
